@@ -1,25 +1,118 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './components/Footer'
+import Header from './components/Header'
+import FooterBanner from './components/FooterBanner';
+import HeaderBanner from './components/HeaderBanner';
+import About from './components/About';
+import HomeProductsDisplay from './components/HomeProductsDisplay';
+import Contact from './components/Contact';
+import Form from './components/Form';
+import { 
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link } from "react-router-dom";
 
-function App() {
+
+
+export default function App(){
+  return(
+    <Router>
+    <Switch>
+      <Route path="/about">
+        <About_page />
+      </Route>
+   
+      <Route path="/store">
+        <Store_page />
+      </Route>
+
+      <Route path="/contact">
+        <Contact_page />
+      </Route>
+
+      <Route path="/cart">
+        <Cart />
+      </Route>
+
+
+      {/* this path is supposed to go last because if not then the router 
+      accepts it before any other link, i.e /store or /about so it works as a
+      else or default*/}
+      <Route path="/">
+        <Home />
+      </Route>
+    </Switch>
+    </Router>
+  )
+}
+
+
+function Home() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div className= 'container'>
+  <Header  />
+  <HeaderBanner type='main' />
+  <HomeProductsDisplay />
+  
+  <FooterBanner />
+  <Footer />
+</div>
   );
 }
 
-export default App;
+
+function About_page(){
+return(
+<div className= 'container'>
+  <Header />
+  <HeaderBanner type='about' />
+  <About />
+  <FooterBanner />
+  <Footer />
+</div>
+)
+}
+
+
+function Contact_page(){
+  return(
+    <div >
+    <Header  />
+    <HeaderBanner type ='contact' />
+    <Contact />
+    <Form />
+    <FooterBanner />
+    <Footer />
+  </div>
+  )
+}
+
+function Store_page(){
+  return(
+    <div className= 'container'>
+    <Header   />
+    <HeaderBanner type='main' />
+    <h1>Store</h1>
+    <FooterBanner />
+    <Footer />
+  </div>
+  )
+}
+
+function Cart() {
+  return (
+    
+      <div className= 'container'>
+        <Header  />
+        <HeaderBanner type='main' />
+        <h1>Under Construction</h1>
+        <FooterBanner />
+        <Footer />
+      </div>
+    
+  )
+}
+
+
