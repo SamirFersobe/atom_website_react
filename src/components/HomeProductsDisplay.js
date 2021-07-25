@@ -1,5 +1,5 @@
 import react from 'react'
-import './style-main.css';
+import './HomeProductsDisplay.css';
 import FeatureBox from './FeatureBox';
 export default function HomeProductsDisplay() {
     const products =  [
@@ -40,22 +40,7 @@ export default function HomeProductsDisplay() {
             </div>
             <div className = "feature-container">
                 {products.map((task) => ( <FeatureBox {...task} />
-                // Mapping each of the values in products to a specific format  which will get sent to the main page
-                // Refactor card component so that its reusable 
-                // Different views render different components which maintain efficiency 
-                // <div className="feature-box shadow">
-                // <img src= {task.itemImageSrc}></img>
-                //     <div className="feature-box-model">
-                //         {task.itemDescription}
-                //     </div>
-                //     <div className="feature-box-price">
-                //         {task.itemPrice}
-                //     </div>
-                //     <button id ={task.id} type="button" >
-                //         Add to Cart
-                //     </button><br></br>
-                // </div>
-                
+              
                 ))}
             
             </div>

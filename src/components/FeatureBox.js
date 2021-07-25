@@ -1,4 +1,4 @@
-import './style-main.css'
+import './FeatureBox.css'
 import React from 'react'
 
 export default function FeatureBox(task) {
@@ -12,7 +12,7 @@ export default function FeatureBox(task) {
                     {task.itemPrice}
                 </div>
                 <button id ={task.id} type="button" >
-                    Feature
+                    Add to Cart
                 </button><br></br>
         </div>
     )

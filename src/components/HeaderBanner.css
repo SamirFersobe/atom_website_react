@@ -25,9 +25,13 @@
 	background-position: center top;
 	background-color: rgba(255,0,0,0);
 	text-align: center;
-
+    
 }
 
+
+.header-banner form{
+    text-align: center;
+}
 .banner-text-heading {
     color: #FFFFFF;
     font-size: 32pt;
@@ -53,4 +57,8 @@
 }
 .about-banner-text-heading{
     padding: 9% 0 10% 0;
+}
+
+.header-banner form{
+
 }

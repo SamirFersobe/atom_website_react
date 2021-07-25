@@ -1,0 +1,24 @@
+.feature {
+	background-color:#EEEEEE;
+}
+
+.feature-text {
+    text-align: center;
+    padding-top:6.5%;
+    padding-bottom: 1%;
+    font-size: 20pt;
+    color: black;
+		font-style: normal;
+
+}
+
+.feature-container {
+    background-color: #EEEEEE;
+    padding-top: 3%;
+    padding-bottom: 10%;
+    padding-left: 55px;
+    width: 70%;
+    margin: auto;
+
+}
+

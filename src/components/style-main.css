@@ -1,7 +1,7 @@
 
 body {
-	background:#CCCCCC;
-	/* background: linear-gradient(90deg, rgba(40,215,146,1) 0%,rgba(255,255,255,1) 10%,rgba(255,255,255,1) 90%, rgba(23,216,255,1) 100%);; */
+	/* background:#CCCCCC; */
+	background: radial-gradient( #e1faf9 , #f0fffd );
 	margin: 0;
 	padding: 0;
 	font-family: Helvetica;
@@ -282,7 +282,7 @@ tr:nth-child(even) {
 }
 
 .footer p {
-	float: left;
+	/* float: left; */
 	bottom: 5%;
 }
 

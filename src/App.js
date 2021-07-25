@@ -1,4 +1,5 @@
 import './App.css';
+import './components/style-main.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import FooterBanner from './components/FooterBanner';
@@ -51,7 +52,7 @@ export default function App(){
 function Home() {
   
   return (
-  <div className= 'container'>
+  <div className= 'container shadow'>
   <Header  />
   <HeaderBanner type='main' />
   <HomeProductsDisplay />
@@ -65,7 +66,7 @@ function Home() {
 
 function About_page(){
 return(
-<div className= 'container'>
+<div className= 'container shadow'>
   <Header />
   <HeaderBanner type='about' />
   <About />
@@ -78,7 +79,7 @@ return(
 
 function Contact_page(){
   return(
-    <div className ="container">
+    <div className ="container shadow">
     <Header  />
     <HeaderBanner type ='contact' />
     <Contact />
@@ -91,7 +92,7 @@ function Contact_page(){
 
 function Store_page(){
   return(
-    <div className= 'container'>
+    <div className= 'container shadow'>
     <Header   />
     <HeaderBanner type='main' />
     <h1>Store</h1>
@@ -104,7 +105,7 @@ function Store_page(){
 function Cart() {
   return (
     
-      <div className= 'container'>
+      <div className= 'container shadow'>
         <Header  />
         <HeaderBanner type='main' />
         <h1>Under Construction</h1>

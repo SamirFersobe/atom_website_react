@@ -1,7 +1,8 @@
 import React from 'react'
-
+import './Form.css'
 export default function Form() {
     return (
+		<div className = "contact-form">
         <form>
 			<div>
             <label>名前 *</label> <label id="email-label">　電子メール*　　　</label>
@@ -11,5 +12,6 @@ export default function Form() {
   			<input type="submit" value="送る" onclick="MessageConfirm()"></input>
             
 		</form>
+		</div>
     )
 }
