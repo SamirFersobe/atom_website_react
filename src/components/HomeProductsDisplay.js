@@ -1,6 +1,6 @@
 import react from 'react'
 import './style-main.css';
-
+import FeatureBox from './FeatureBox';
 export default function HomeProductsDisplay() {
     const products =  [
         {
@@ -26,7 +26,7 @@ export default function HomeProductsDisplay() {
         },
         {
             id:4,
-           itemImageSrc : "https://asset.conrad.com/media10/isa/160267/c1/-/en/002138864PI00/image.jpg?x=600&y=600",
+           itemImageSrc : "/images/Strawberry_Pi_Case copy.jpg",
            itemImageAlt : "placeholder",
            itemDescription : " ストロベリーパイ Extension Kit ",
            itemPrice : 15000,
@@ -39,20 +39,22 @@ export default function HomeProductsDisplay() {
                 人気にある商品
             </div>
             <div className = "feature-container">
-                {products.map((task) => (
+                {products.map((task) => ( <FeatureBox {...task} />
                 // Mapping each of the values in products to a specific format  which will get sent to the main page
-                <div className="feature-box shadow">
-                <img src= {task.itemImageSrc}></img>
-                    <div className="feature-box-model">
-                        {task.itemDescription}
-                    </div>
-                    <div className="feature-box-price">
-                        {task.itemPrice}
-                    </div>
-                    <button id ={task.id} type="button" >
-                        Add to Cart
-                    </button><br></br>
-                </div>
+                // Refactor card component so that its reusable 
+                // Different views render different components which maintain efficiency 
+                // <div className="feature-box shadow">
+                // <img src= {task.itemImageSrc}></img>
+                //     <div className="feature-box-model">
+                //         {task.itemDescription}
+                //     </div>
+                //     <div className="feature-box-price">
+                //         {task.itemPrice}
+                //     </div>
+                //     <button id ={task.id} type="button" >
+                //         Add to Cart
+                //     </button><br></br>
+                // </div>
                 
                 ))}
             

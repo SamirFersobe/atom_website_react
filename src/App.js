@@ -56,7 +56,7 @@ function Home() {
   <HeaderBanner type='main' />
   <HomeProductsDisplay />
   
-  <FooterBanner />
+  <FooterBanner type='main' />
   <Footer />
 </div>
   );
@@ -69,7 +69,7 @@ return(
   <Header />
   <HeaderBanner type='about' />
   <About />
-  <FooterBanner />
+  <FooterBanner type='about' />
   <Footer />
 </div>
 )
@@ -78,12 +78,12 @@ return(
 
 function Contact_page(){
   return(
-    <div >
+    <div className ="container">
     <Header  />
     <HeaderBanner type ='contact' />
     <Contact />
     <Form />
-    <FooterBanner />
+    <FooterBanner type ='contact' />
     <Footer />
   </div>
   )
@@ -95,7 +95,7 @@ function Store_page(){
     <Header   />
     <HeaderBanner type='main' />
     <h1>Store</h1>
-    <FooterBanner />
+    <FooterBanner  type='main' />
     <Footer />
   </div>
   )
@@ -108,7 +108,7 @@ function Cart() {
         <Header  />
         <HeaderBanner type='main' />
         <h1>Under Construction</h1>
-        <FooterBanner />
+        <FooterBanner type='main' />
         <Footer />
       </div>
     

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Contact.css'
 export default function Contact() {
     return (
         
@@ -11,7 +11,7 @@ export default function Contact() {
     </div>
     <div className="feature-box">
         <div class="feature-box-model"><p>住所</p></div>
-        <div class="feature-box-text"><p>天王寺区上本町９－０－１</p> <br></br>大阪</div>
+        <div class="feature-box-text"><p>　　大阪府大阪市天王寺区上本町　６丁目８番４号　</p></div>
     </div>
     <div className="feature-box">
         <div className="feature-box-model">

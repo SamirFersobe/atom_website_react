@@ -1,6 +1,7 @@
 
 body {
-	background: #CCCCCC;
+	background:#CCCCCC;
+	/* background: linear-gradient(90deg, rgba(40,215,146,1) 0%,rgba(255,255,255,1) 10%,rgba(255,255,255,1) 90%, rgba(23,216,255,1) 100%);; */
 	margin: 0;
 	padding: 0;
 	font-family: Helvetica;
@@ -252,7 +253,7 @@ tr:nth-child(even) {
 }
 
 .feature-box button:hover {
-	background: #17d1b2;
+  background: #17d1b2;
   background-image: -webkit-linear-gradient(top, #17d1b2, #1ce3bb);
   background-image: -moz-linear-gradient(top, #17d1b2, #1ce3bb);
   background-image: -ms-linear-gradient(top, #17d1b2, #1ce3bb);
@@ -265,7 +266,7 @@ tr:nth-child(even) {
 
 .footer-banner {
 	position: relative;
-	background-image: url("../assets/images/footer-banner-home.jpg");
+	/* background-image: url("../images/footer-banner-home.jpg"); */
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: center top;

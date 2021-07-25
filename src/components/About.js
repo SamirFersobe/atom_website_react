@@ -1,6 +1,8 @@
+import './About.css'
 
 export default function About() {
     return (
+		// Refactor into a multiple components for reusability
         <div class="feature">
    			<div class="feature-text"></div>
    			<div class="feature-container">
