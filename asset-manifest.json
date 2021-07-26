@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/atom_website_react/static/css/main.32a231b9.chunk.css",
-    "main.js": "/atom_website_react/static/js/main.003f4241.chunk.js",
-    "main.js.map": "/atom_website_react/static/js/main.003f4241.chunk.js.map",
+    "main.js": "/atom_website_react/static/js/main.e00a2a40.chunk.js",
+    "main.js.map": "/atom_website_react/static/js/main.e00a2a40.chunk.js.map",
     "runtime-main.js": "/atom_website_react/static/js/runtime-main.ba89a475.js",
     "runtime-main.js.map": "/atom_website_react/static/js/runtime-main.ba89a475.js.map",
     "static/js/2.02fa334d.chunk.js": "/atom_website_react/static/js/2.02fa334d.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.ba89a475.js",
     "static/js/2.02fa334d.chunk.js",
     "static/css/main.32a231b9.chunk.css",
-    "static/js/main.003f4241.chunk.js"
+    "static/js/main.e00a2a40.chunk.js"
   ]
 }
