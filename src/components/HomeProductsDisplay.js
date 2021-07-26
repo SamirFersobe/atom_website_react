@@ -2,6 +2,8 @@ import react from 'react'
 import './HomeProductsDisplay.css';
 import FeatureBox from './FeatureBox';
 export default function HomeProductsDisplay() {
+
+
     const products =  [
         {
             id:1,
@@ -39,9 +41,7 @@ export default function HomeProductsDisplay() {
                 人気にある商品
             </div>
             <div className = "feature-container">
-                {products.map((task) => ( <FeatureBox {...task} />
-              
-                ))}
+                {products.map((task) => ( <FeatureBox {...task} />))}
             
             </div>
             <div className ="clearboth"></div>
