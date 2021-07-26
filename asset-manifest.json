@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/atom_website_react/static/css/main.32a231b9.chunk.css",
+    "main.js": "/atom_website_react/static/js/main.003f4241.chunk.js",
+    "main.js.map": "/atom_website_react/static/js/main.003f4241.chunk.js.map",
+    "runtime-main.js": "/atom_website_react/static/js/runtime-main.ba89a475.js",
+    "runtime-main.js.map": "/atom_website_react/static/js/runtime-main.ba89a475.js.map",
+    "static/js/2.02fa334d.chunk.js": "/atom_website_react/static/js/2.02fa334d.chunk.js",
+    "static/js/2.02fa334d.chunk.js.map": "/atom_website_react/static/js/2.02fa334d.chunk.js.map",
+    "static/js/3.2e9b7cc1.chunk.js": "/atom_website_react/static/js/3.2e9b7cc1.chunk.js",
+    "static/js/3.2e9b7cc1.chunk.js.map": "/atom_website_react/static/js/3.2e9b7cc1.chunk.js.map",
+    "index.html": "/atom_website_react/index.html",
+    "static/css/main.32a231b9.chunk.css.map": "/atom_website_react/static/css/main.32a231b9.chunk.css.map",
+    "static/js/2.02fa334d.chunk.js.LICENSE.txt": "/atom_website_react/static/js/2.02fa334d.chunk.js.LICENSE.txt",
+    "static/media/FooterBanner.css": "/atom_website_react/static/media/footer-banner-home.671c9db1.jpg",
+    "static/media/HeaderBanner.css": "/atom_website_react/static/media/header-banner-home.c610ddc6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba89a475.js",
+    "static/js/2.02fa334d.chunk.js",
+    "static/css/main.32a231b9.chunk.css",
+    "static/js/main.003f4241.chunk.js"
+  ]
+}
